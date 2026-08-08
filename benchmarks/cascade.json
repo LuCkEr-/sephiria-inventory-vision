@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T18:55:18.199Z",
+  "policy": "Only inventory-grid icon cells are labeled. Tooltip and UI text are excluded.",
+  "challengeScreenshot": "Sephiria_2026-08-07_16-08-37.png",
+  "holdoutPolicy": "Every reference from the challenge screenshot is removed before detection.",
+  "cascadePolicy": {
+    "primary": "HOG + spatial color + normalized luminance + centered RGB signature with deterministic augmentation",
+    "fallback": "masked OpenCV matching against extracted game assets",
+    "acceptedMatchVerification": "predicted game asset; full catalog on mismatch",
+    "confidenceThreshold": 0.96,
+    "marginThreshold": 0.03
+  },
+  "visionOnly": {
+    "correct": 17,
+    "cells": 24,
+    "accuracy": 0.7083333333333334,
+    "actual": [
+      null,
+      "Alfonso’s Horn",
+      null,
+      null,
+      "Foundation",
+      "Charm of Skill",
+      null,
+      null,
+      null,
+      "Golden Maple Leaf",
+      null,
+      "Magic Glasses",
+      "Harvest",
+      "Cloak of Verdant Spirit",
+      null,
+      "Binary Star",
+      null,
+      null,
+      "Silver Plate",
+      null,
+      "Crown of Humility",
+      "Pointed Club",
+      null,
+      null
+    ],
+    "timing": {
+      "runs": 3,
+      "medianTotalMs": 153.98,
+      "medianIdentityMs": 71.906,
+      "totalRunsMs": [
+        153.42,
+        155.562,
+        153.98
+      ]
+    }
+  },
+  "templateOnly": {
+    "correct": 24,
+    "cells": 24,
+    "accuracy": 1,
+    "actual": [
+      "Leaf Bird Leather",
+      "Alfonso’s Horn",
+      "Keel Fragment",
+      "Exploitation",
+      "Foundation",
+      "Charm of Skill",
+      "Advent",
+      "Disconnection",
+      null,
+      "Golden Maple Leaf",
+      "Peace",
+      "Magic Glasses",
+      "Harvest",
+      "Cloak of Verdant Spirit",
+      null,
+      "Binary Star",
+      null,
+      "Broken Sapphire",
+      "Silver Plate",
+      null,
+      "Crown of Humility",
+      "Pointed Club",
+      null,
+      null
+    ],
+    "timing": {
+      "runs": 3,
+      "medianTotalMs": 1738.658,
+      "medianIdentityMs": 1643.519,
+      "totalRunsMs": [
+        1300.382,
+        1738.658,
+        1743.222
+      ]
+    }
+  },
+  "cascade": {
+    "correct": 24,
+    "cells": 24,
+    "accuracy": 1,
+    "actual": [
+      "Leaf Bird Leather",
+      "Alfonso’s Horn",
+      "Keel Fragment",
+      "Exploitation",
+      "Foundation",
+      "Charm of Skill",
+      "Advent",
+      "Disconnection",
+      null,
+      "Golden Maple Leaf",
+      "Peace",
+      "Magic Glasses",
+      "Harvest",
+      "Cloak of Verdant Spirit",
+      null,
+      "Binary Star",
+      null,
+      "Broken Sapphire",
+      "Silver Plate",
+      null,
+      "Crown of Humility",
+      "Pointed Club",
+      null,
+      null
+    ],
+    "timing": {
+      "runs": 3,
+      "medianTotalMs": 709.649,
+      "medianIdentityMs": 610.795,
+      "totalRunsMs": [
+        737.727,
+        709.649,
+        681.533
+      ]
+    },
+    "fallbackSlots": 8,
+    "visionSlots": 16,
+    "templateCheckedSlots": 19,
+    "assetVerifiedSlots": 11,
+    "fallbacks": [
+      {
+        "row": 0,
+        "column": 0,
+        "expected": "Leaf Bird Leather",
+        "result": "Leaf Bird Leather",
+        "reason": "low-confidence",
+        "visionBest": "Future",
+        "visionScore": 0.908601136608359,
+        "visionMargin": 0.03384623469786163
+      },
+      {
+        "row": 0,
+        "column": 2,
+        "expected": "Keel Fragment",
+        "result": "Keel Fragment",
+        "reason": "vision-rejected",
+        "visionBest": "Keel Fragment",
+        "visionScore": 0.9770417459659673,
+        "visionMargin": 0.09133719977026467
+      },
+      {
+        "row": 0,
+        "column": 3,
+        "expected": "Exploitation",
+        "result": "Exploitation",
+        "reason": "low-confidence",
+        "visionBest": "Foundation",
+        "visionScore": 0.9197303301884123,
+        "visionMargin": 0.011110378813041555
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "expected": "Advent",
+        "result": "Advent",
+        "reason": "low-confidence",
+        "visionBest": "Advent",
+        "visionScore": 0.9594613118554293,
+        "visionMargin": 0.050429595496727764
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "expected": "Disconnection",
+        "result": "Disconnection",
+        "reason": "low-confidence",
+        "visionBest": "Simultaneity",
+        "visionScore": 0.9028509043334474,
+        "visionMargin": 0.0034741554262550656
+      },
+      {
+        "row": 1,
+        "column": 4,
+        "expected": "Peace",
+        "result": "Peace",
+        "reason": "low-confidence",
+        "visionBest": "Foundation",
+        "visionScore": 0.9183852337013146,
+        "visionMargin": 0.00713130285535668
+      },
+      {
+        "row": 2,
+        "column": 5,
+        "expected": "Broken Sapphire",
+        "result": "Broken Sapphire",
+        "reason": "vision-rejected",
+        "visionBest": "Broken Sapphire",
+        "visionScore": 0.9762743596574842,
+        "visionMargin": 0.043728148401266154
+      },
+      {
+        "row": 3,
+        "column": 5,
+        "expected": null,
+        "result": null,
+        "reason": "low-confidence",
+        "visionBest": "__empty__",
+        "visionScore": 0.8713575780134409,
+        "visionMargin": 0.06976711218366294
+      }
+    ]
+  }
+}

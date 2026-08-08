@@ -1,0 +1,1 @@
+{"version":3,"file":"opencv.d.ts","sourceRoot":"","sources":["../src/opencv.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,eAAe,MAAM,sBAAsB,CAAC;AAI7D,MAAM,MAAM,MAAM,GAAG,OAAO,eAAe,CAAC;AAE5C,MAAM,WAAW,YAAY;IAC3B,EAAE,EAAE,MAAM,CAAC;CACZ;AA2BD,wBAAgB,SAAS,IAAI,OAAO,CAAC,YAAY,CAAC,CAEjD"}

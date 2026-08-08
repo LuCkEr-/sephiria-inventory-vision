@@ -1,0 +1,6 @@
+assets/
+benchmarks/
+dist/
+node_modules/
+test/fixtures/
+scripts/*.mjs

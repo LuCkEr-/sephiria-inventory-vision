@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T18:55:37.702Z",
+  "policy": "Every extracted game-item template absent from the vision model is rendered into an inventory slot; tooltip and label pixels are excluded.",
+  "acceptanceThreshold": 0.936,
+  "queries": 461,
+  "rejected": 461,
+  "accepted": 0,
+  "falseAcceptRate": 0,
+  "acceptedExamples": []
+}

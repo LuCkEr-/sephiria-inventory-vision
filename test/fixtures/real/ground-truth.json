@@ -1,0 +1,2021 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen-and-reviewed",
+  "policy": "Only inventory-grid icon cells are labeled. Tooltip and UI text are excluded.",
+  "provenance": "Seeded from the previously asserted 111-item regression corpus, then frozen as detector-independent expected data.",
+  "screenshots": [
+    {
+      "id": "image",
+      "sourceFile": "image.png",
+      "fixtureFile": "image.png",
+      "image": {
+        "width": 3840,
+        "height": 2160
+      },
+      "grid": {
+        "x": 1815,
+        "y": 735,
+        "width": 1440,
+        "height": 960,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "high-resolution-loadout-a",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Mouse Mage’s Pendant",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": {
+            "name": "Eternal Furnace",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": {
+            "name": "Solis Parvo",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": {
+            "name": "Windgrass Scarf",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": {
+            "name": "Frozen Bow",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": {
+            "name": "Past",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Ahmad’s Spirit Powder",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": {
+            "name": "Begonia Sachet",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": {
+            "name": "Simultaneity",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": {
+            "name": "Thorns",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": {
+            "name": "Advance",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "image2",
+      "sourceFile": "image2.png",
+      "fixtureFile": "image2.png",
+      "image": {
+        "width": 3840,
+        "height": 2160
+      },
+      "grid": {
+        "x": 1200,
+        "y": 735,
+        "width": 1440,
+        "height": 960,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "high-resolution-foundation",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-14-39-32",
+      "sourceFile": "Sephiria_2026-08-07_14-39-32.png",
+      "fixtureFile": "14-39-32.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "foundation-intro",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-05-25",
+      "sourceFile": "Sephiria_2026-08-07_15-05-25.png",
+      "fixtureFile": "15-05-25.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "foundation-intro",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-15-04",
+      "sourceFile": "Sephiria_2026-08-07_15-15-04.png",
+      "fixtureFile": "15-15-04.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-a",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": {
+            "name": "Lucky Medal",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": {
+            "name": "Zappy Custard Pastry",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": {
+            "name": "Future",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": {
+            "name": "Stack",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-16-10",
+      "sourceFile": "Sephiria_2026-08-07_15-16-10.png",
+      "fixtureFile": "15-16-10.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 495,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-a",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": {
+            "name": "Lucky Medal",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": {
+            "name": "Zappy Custard Pastry",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": {
+            "name": "Healing Stream",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": {
+            "name": "Future",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": {
+            "name": "Stack",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-20-26",
+      "sourceFile": "Sephiria_2026-08-07_15-20-26.png",
+      "fixtureFile": "15-20-26.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 495,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-a",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": {
+            "name": "Moment of Lambic",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": {
+            "name": "Zappy Custard Pastry",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": {
+            "name": "Lucky Medal",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Future",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": {
+            "name": "Future",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": {
+            "name": "Healing Stream",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": {
+            "name": "Stack",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-35-41",
+      "sourceFile": "Sephiria_2026-08-07_15-35-41.png",
+      "fixtureFile": "15-35-41.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-b",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Golden Maple Leaf",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": {
+            "name": "Binary Star",
+            "rotationDegrees": 90
+          }
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": {
+            "name": "Mouse Mage’s Pendant",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": {
+            "name": "Silver Plate",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": {
+            "name": "Alfonso’s Horn",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": {
+            "name": "Crown of Humility",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": {
+            "name": "Keel Fragment",
+            "rotationDegrees": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-40-28",
+      "sourceFile": "Sephiria_2026-08-07_15-40-28.png",
+      "fixtureFile": "15-40-28.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-b",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Golden Maple Leaf",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Blue Planet",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Alfonso’s Horn",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": {
+            "name": "Binary Star",
+            "rotationDegrees": 90
+          }
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": {
+            "name": "Harvest",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": {
+            "name": "Eternal Winter",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": {
+            "name": "Silver Plate",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": {
+            "name": "Crown of Humility",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": {
+            "name": "Keel Fragment",
+            "rotationDegrees": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-15-48-31",
+      "sourceFile": "Sephiria_2026-08-07_15-48-31.png",
+      "fixtureFile": "15-48-31.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-b",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Golden Maple Leaf",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Power",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Alfonso’s Horn",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": {
+            "name": "Advent",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": {
+            "name": "Binary Star",
+            "rotationDegrees": 90
+          }
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": {
+            "name": "Golden Handbell",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": {
+            "name": "Harvest",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": {
+            "name": "Silver Plate",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": {
+            "name": "Broken Sapphire",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": {
+            "name": "Crown of Humility",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": {
+            "name": "Keel Fragment",
+            "rotationDegrees": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-16-00-29",
+      "sourceFile": "Sephiria_2026-08-07_16-00-29.png",
+      "fixtureFile": "16-00-29.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-b",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Golden Maple Leaf",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Power",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": {
+            "name": "Battle Bracelet of Lerid",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Alfonso’s Horn",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": {
+            "name": "Advent",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": {
+            "name": "Binary Star",
+            "rotationDegrees": 90
+          }
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": {
+            "name": "Magic Glasses",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": {
+            "name": "Golden Handbell",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": {
+            "name": "Harvest",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": {
+            "name": "Pointed Club",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": {
+            "name": "Silver Plate",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": {
+            "name": "Broken Sapphire",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": {
+            "name": "Crown of Humility",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": {
+            "name": "Keel Fragment",
+            "rotationDegrees": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "sephiria-2026-08-07-16-08-37",
+      "sourceFile": "Sephiria_2026-08-07_16-08-37.png",
+      "fixtureFile": "16-08-37.png",
+      "image": {
+        "width": 3440,
+        "height": 1440
+      },
+      "grid": {
+        "x": 1240,
+        "y": 490,
+        "width": 960,
+        "height": 640,
+        "rows": 4,
+        "columns": 6
+      },
+      "family": "loadout-sequence-b",
+      "slots": [
+        {
+          "row": 0,
+          "column": 0,
+          "item": {
+            "name": "Leaf Bird Leather",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "item": {
+            "name": "Alfonso’s Horn",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "item": {
+            "name": "Keel Fragment",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "item": {
+            "name": "Exploitation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "item": {
+            "name": "Foundation",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "item": {
+            "name": "Charm of Skill",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "item": {
+            "name": "Advent",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "item": {
+            "name": "Disconnection",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "item": {
+            "name": "Golden Maple Leaf",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "item": {
+            "name": "Peace",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "item": {
+            "name": "Magic Glasses",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "item": {
+            "name": "Harvest",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "item": {
+            "name": "Cloak of Verdant Spirit",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "item": {
+            "name": "Binary Star",
+            "rotationDegrees": 90
+          }
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "item": {
+            "name": "Broken Sapphire",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "item": {
+            "name": "Silver Plate",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "item": {
+            "name": "Crown of Humility",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "item": {
+            "name": "Pointed Club",
+            "rotationDegrees": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "item": null
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "item": null
+        }
+      ]
+    }
+  ]
+}

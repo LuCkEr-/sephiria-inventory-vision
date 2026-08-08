@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T18:55:48.241Z",
+  "detector": "vision-features",
+  "fixture": "16-08-37.png",
+  "warmupRuns": 3,
+  "measuredRuns": 50,
+  "timingMs": {
+    "median": 180.383,
+    "p95": 201.683,
+    "minimum": 125.897,
+    "maximum": 209.586
+  },
+  "memoryBytes": {
+    "before": {
+      "heapUsed": 66674360,
+      "external": 269220511,
+      "arrayBuffers": 79211977,
+      "rss": 410468352
+    },
+    "after": {
+      "heapUsed": 53571408,
+      "external": 270952637,
+      "arrayBuffers": 81606089,
+      "rss": 413700096
+    },
+    "growth": {
+      "heapUsed": -13102952,
+      "external": 1732126,
+      "arrayBuffers": 2394112,
+      "rss": 3231744
+    }
+  },
+  "limitsBytes": {
+    "heapUsedGrowth": 8388608,
+    "externalGrowth": 8388608,
+    "arrayBufferGrowth": 8388608
+  }
+}

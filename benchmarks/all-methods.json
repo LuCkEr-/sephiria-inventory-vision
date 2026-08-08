@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T16:03:32.432Z",
+  "policy": "Only inventory-grid icon cells are labeled. Tooltip and UI text are excluded.",
+  "corpus": {
+    "screenshots": 12,
+    "cells": 288,
+    "occupiedCells": 111,
+    "itemClasses": 40
+  },
+  "evaluation": {
+    "challengeScreenshot": "Sephiria_2026-08-07_16-08-37.png",
+    "trainingScreenshots": 11,
+    "note": "Challenge results exclude that screenshot from reference/training data. Covered accuracy omits item classes never seen in training; all-cell accuracy retains them as unavoidable misses."
+  },
+  "methods": {
+    "opencv-game-asset-template": {
+      "kind": "masked pixel template matching against extracted game sprites",
+      "challenge": {
+        "queries": 24,
+        "correct": 24,
+        "accuracy": 1,
+        "coveredQueries": 20,
+        "coveredCorrect": 20,
+        "coveredAccuracy": 1,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 1546.221,
+        "millisecondsPerQuery": 64.4259,
+        "failures": []
+      },
+      "runtimeIncludes": "identity matching; grid localization excluded"
+    },
+    "vision-features": {
+      "kind": "HOG + spatial color + normalized luminance + centered RGB nearest neighbor",
+      "challenge": {
+        "queries": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 20,
+        "coveredAccuracy": 1,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 5.087,
+        "millisecondsPerQuery": 0.2119,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.9086004478102824
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Foundation",
+            "score": 0.9197301440722951
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.9028508857320975
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Foundation",
+            "score": 0.9181912317459904
+          }
+        ]
+      },
+      "leaveOneScreenshotOut": {
+        "queries": 288,
+        "correct": 269,
+        "accuracy": 0.9340277777777778,
+        "coveredQueries": 270,
+        "coveredCorrect": 269,
+        "coveredAccuracy": 0.9962962962962963,
+        "occupiedCovered": 93,
+        "occupiedCorrect": 92,
+        "occupiedAccuracy": 0.989247311827957,
+        "milliseconds": 40.23,
+        "millisecondsPerQuery": 0.1397,
+        "failures": [
+          {
+            "id": "image.png:r0:c2",
+            "expected": "Eternal Furnace",
+            "predicted": "Charm of Skill",
+            "score": 0.9080415705922712
+          },
+          {
+            "id": "image.png:r0:c3",
+            "expected": "Solis Parvo",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.9132804944137027
+          },
+          {
+            "id": "image.png:r0:c4",
+            "expected": "Windgrass Scarf",
+            "predicted": "Alfonso’s Horn",
+            "score": 0.9157859587989235
+          },
+          {
+            "id": "image.png:r0:c5",
+            "expected": "Frozen Bow",
+            "predicted": "Charm of Skill",
+            "score": 0.9278212606532863
+          },
+          {
+            "id": "image.png:r1:c0",
+            "expected": "Past",
+            "predicted": "Future",
+            "score": 0.944433018685937
+          },
+          {
+            "id": "image.png:r1:c1",
+            "expected": "Ahmad’s Spirit Powder",
+            "predicted": "Crown of Humility",
+            "score": 0.9121918327935518
+          },
+          {
+            "id": "image.png:r1:c2",
+            "expected": "Begonia Sachet",
+            "predicted": "Lucky Medal",
+            "score": 0.8964039929979096
+          },
+          {
+            "id": "image.png:r1:c5",
+            "expected": "Simultaneity",
+            "predicted": "Golden Handbell",
+            "score": 0.9331058697454142
+          },
+          {
+            "id": "image.png:r2:c1",
+            "expected": "Thorns",
+            "predicted": "Pointed Club",
+            "score": 0.9160056796833254
+          },
+          {
+            "id": "image.png:r3:c1",
+            "expected": "Advance",
+            "predicted": "Golden Handbell",
+            "score": 0.971926835066685
+          },
+          {
+            "id": "15-15-04.png:r0:c3",
+            "expected": "Zappy Custard Pastry",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.9041933452224264
+          },
+          {
+            "id": "15-20-26.png:r0:c2",
+            "expected": "Moment of Lambic",
+            "predicted": "Charm of Skill",
+            "score": 0.8852844136603706
+          },
+          {
+            "id": "15-40-28.png:r0:c1",
+            "expected": "Blue Planet",
+            "predicted": "Crown of Humility",
+            "score": 0.9106079508304162
+          },
+          {
+            "id": "15-40-28.png:r3:c1",
+            "expected": "Eternal Winter",
+            "predicted": "Frozen Bow",
+            "score": 0.9171904092908741
+          },
+          {
+            "id": "16-00-29.png:r0:c4",
+            "expected": "Battle Bracelet of Lerid",
+            "predicted": "Advance",
+            "score": 0.8937456837632062
+          },
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.9086004478102824
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Foundation",
+            "score": 0.9197301440722951
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.9028508857320975
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Foundation",
+            "score": 0.9181912317459904
+          }
+        ]
+      }
+    },
+    "perceptual-hash": {
+      "kind": "64-bit DCT perceptual hash nearest neighbor",
+      "challenge": {
+        "queries": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 20,
+        "coveredAccuracy": 1,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 0.404,
+        "millisecondsPerQuery": 0.0168,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.84375
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Ahmad’s Spirit Powder",
+            "score": 0.78125
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.75
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Past",
+            "score": 0.78125
+          }
+        ]
+      },
+      "leaveOneScreenshotOut": {
+        "queries": 288,
+        "correct": 260,
+        "accuracy": 0.9027777777777778,
+        "coveredQueries": 270,
+        "coveredCorrect": 260,
+        "coveredAccuracy": 0.9629629629629629,
+        "occupiedCovered": 93,
+        "occupiedCorrect": 84,
+        "occupiedAccuracy": 0.9032258064516129,
+        "milliseconds": 7.923,
+        "millisecondsPerQuery": 0.0275,
+        "failures": [
+          {
+            "id": "image.png:r0:c1",
+            "expected": "Mouse Mage’s Pendant",
+            "predicted": "Crown of Humility",
+            "score": 0.84375
+          },
+          {
+            "id": "image.png:r0:c2",
+            "expected": "Eternal Furnace",
+            "predicted": "Eternal Winter",
+            "score": 0.8125
+          },
+          {
+            "id": "image.png:r0:c3",
+            "expected": "Solis Parvo",
+            "predicted": "Eternal Winter",
+            "score": 0.875
+          },
+          {
+            "id": "image.png:r0:c4",
+            "expected": "Windgrass Scarf",
+            "predicted": "Crown of Humility",
+            "score": 0.8125
+          },
+          {
+            "id": "image.png:r0:c5",
+            "expected": "Frozen Bow",
+            "predicted": "Charm of Skill",
+            "score": 0.8125
+          },
+          {
+            "id": "image.png:r1:c0",
+            "expected": "Past",
+            "predicted": "Peace",
+            "score": 0.78125
+          },
+          {
+            "id": "image.png:r1:c1",
+            "expected": "Ahmad’s Spirit Powder",
+            "predicted": "Crown of Humility",
+            "score": 0.875
+          },
+          {
+            "id": "image.png:r1:c2",
+            "expected": "Begonia Sachet",
+            "predicted": "Zappy Custard Pastry",
+            "score": 0.71875
+          },
+          {
+            "id": "image.png:r1:c5",
+            "expected": "Simultaneity",
+            "predicted": "Golden Handbell",
+            "score": 0.75
+          },
+          {
+            "id": "image.png:r2:c1",
+            "expected": "Thorns",
+            "predicted": "Blue Planet",
+            "score": 0.90625
+          },
+          {
+            "id": "image.png:r3:c1",
+            "expected": "Advance",
+            "predicted": "Future",
+            "score": 0.71875
+          },
+          {
+            "id": "15-15-04.png:r0:c2",
+            "expected": "Lucky Medal",
+            "predicted": "Eternal Winter",
+            "score": 0.8125
+          },
+          {
+            "id": "15-15-04.png:r0:c3",
+            "expected": "Zappy Custard Pastry",
+            "predicted": "Ahmad’s Spirit Powder",
+            "score": 0.84375
+          },
+          {
+            "id": "15-15-04.png:r1:c2",
+            "expected": "Future",
+            "predicted": "Stack",
+            "score": 0.875
+          },
+          {
+            "id": "15-16-10.png:r0:c2",
+            "expected": "Lucky Medal",
+            "predicted": "Moment of Lambic",
+            "score": 0.71875
+          },
+          {
+            "id": "15-20-26.png:r0:c2",
+            "expected": "Moment of Lambic",
+            "predicted": "Charm of Skill",
+            "score": 0.75
+          },
+          {
+            "id": "15-20-26.png:r0:c4",
+            "expected": "Lucky Medal",
+            "predicted": "Blue Planet",
+            "score": 0.65625
+          },
+          {
+            "id": "15-20-26.png:r1:c2",
+            "expected": "Future",
+            "predicted": "Stack",
+            "score": 0.84375
+          },
+          {
+            "id": "15-20-26.png:r1:c3",
+            "expected": "Healing Stream",
+            "predicted": "Windgrass Scarf",
+            "score": 0.75
+          },
+          {
+            "id": "15-35-41.png:r1:c5",
+            "expected": "Mouse Mage’s Pendant",
+            "predicted": "Blue Planet",
+            "score": 0.90625
+          },
+          {
+            "id": "15-40-28.png:r0:c1",
+            "expected": "Blue Planet",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.90625
+          },
+          {
+            "id": "15-40-28.png:r3:c1",
+            "expected": "Eternal Winter",
+            "predicted": "Solis Parvo",
+            "score": 0.875
+          },
+          {
+            "id": "15-48-31.png:r2:c0",
+            "expected": "__empty__",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.71875
+          },
+          {
+            "id": "16-00-29.png:r0:c4",
+            "expected": "Battle Bracelet of Lerid",
+            "predicted": "Power",
+            "score": 0.84375
+          },
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.84375
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Ahmad’s Spirit Powder",
+            "score": 0.78125
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.75
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Past",
+            "score": 0.78125
+          }
+        ]
+      }
+    },
+    "edge-shape": {
+      "kind": "Sobel contour + orientation descriptor nearest neighbor",
+      "challenge": {
+        "queries": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 20,
+        "coveredAccuracy": 1,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 1.026,
+        "millisecondsPerQuery": 0.0428,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.7919014872471697
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Binary Star",
+            "score": 0.7916628274626389
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Golden Handbell",
+            "score": 0.8660830970742996
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Future",
+            "score": 0.8940402179565575
+          }
+        ]
+      },
+      "leaveOneScreenshotOut": {
+        "queries": 288,
+        "correct": 267,
+        "accuracy": 0.9270833333333334,
+        "coveredQueries": 270,
+        "coveredCorrect": 267,
+        "coveredAccuracy": 0.9888888888888889,
+        "occupiedCovered": 93,
+        "occupiedCorrect": 91,
+        "occupiedAccuracy": 0.978494623655914,
+        "milliseconds": 13.47,
+        "millisecondsPerQuery": 0.0468,
+        "failures": [
+          {
+            "id": "image.png:r0:c2",
+            "expected": "Eternal Furnace",
+            "predicted": "Broken Sapphire",
+            "score": 0.867969879219162
+          },
+          {
+            "id": "image.png:r0:c3",
+            "expected": "Solis Parvo",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.912319170783444
+          },
+          {
+            "id": "image.png:r0:c4",
+            "expected": "Windgrass Scarf",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.9014112777857033
+          },
+          {
+            "id": "image.png:r0:c5",
+            "expected": "Frozen Bow",
+            "predicted": "Charm of Skill",
+            "score": 0.9073719599306864
+          },
+          {
+            "id": "image.png:r1:c0",
+            "expected": "Past",
+            "predicted": "Future",
+            "score": 0.9235649701708785
+          },
+          {
+            "id": "image.png:r1:c1",
+            "expected": "Ahmad’s Spirit Powder",
+            "predicted": "Crown of Humility",
+            "score": 0.8963569041506718
+          },
+          {
+            "id": "image.png:r1:c2",
+            "expected": "Begonia Sachet",
+            "predicted": "Lucky Medal",
+            "score": 0.8092885605250016
+          },
+          {
+            "id": "image.png:r1:c5",
+            "expected": "Simultaneity",
+            "predicted": "Golden Handbell",
+            "score": 0.9411759866925115
+          },
+          {
+            "id": "image.png:r2:c1",
+            "expected": "Thorns",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.8568404524287988
+          },
+          {
+            "id": "image.png:r3:c1",
+            "expected": "Advance",
+            "predicted": "Golden Handbell",
+            "score": 0.9467510000330417
+          },
+          {
+            "id": "15-15-04.png:r0:c2",
+            "expected": "Lucky Medal",
+            "predicted": "Advent",
+            "score": 0.8545188446249115
+          },
+          {
+            "id": "15-15-04.png:r0:c3",
+            "expected": "Zappy Custard Pastry",
+            "predicted": "Windgrass Scarf",
+            "score": 0.8724747987692566
+          },
+          {
+            "id": "15-20-26.png:r0:c2",
+            "expected": "Moment of Lambic",
+            "predicted": "Charm of Skill",
+            "score": 0.8534862367106647
+          },
+          {
+            "id": "15-40-28.png:r0:c1",
+            "expected": "Blue Planet",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.9126051266436854
+          },
+          {
+            "id": "15-40-28.png:r3:c1",
+            "expected": "Eternal Winter",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.9103168914263988
+          },
+          {
+            "id": "15-48-31.png:r2:c0",
+            "expected": "__empty__",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.873407964120332
+          },
+          {
+            "id": "16-00-29.png:r0:c4",
+            "expected": "Battle Bracelet of Lerid",
+            "predicted": "Disconnection",
+            "score": 0.8224042956322775
+          },
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.7919014872471697
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Binary Star",
+            "score": 0.7916628274626389
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Golden Handbell",
+            "score": 0.8660830970742996
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Future",
+            "score": 0.8940402179565575
+          }
+        ]
+      }
+    },
+    "orb": {
+      "kind": "oriented FAST/BRIEF local-feature nearest neighbor",
+      "challenge": {
+        "queries": 24,
+        "correct": 14,
+        "accuracy": 0.5833333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 14,
+        "coveredAccuracy": 0.7,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 6.651,
+        "millisecondsPerQuery": 0.2771,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Foundation",
+            "score": 0.6611111111111111
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Foundation",
+            "score": 0.6902777777777778
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Golden Handbell",
+            "score": 0.5937499999999999
+          },
+          {
+            "id": "16-08-37.png:r1:c2",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Blue Planet",
+            "score": 0.625
+          },
+          {
+            "id": "16-08-37.png:r2:c2",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "16-08-37.png:r2:c4",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "16-08-37.png:r3:c1",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "16-08-37.png:r3:c4",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "16-08-37.png:r3:c5",
+            "expected": "__empty__",
+            "predicted": "Stack",
+            "score": 0.6425000000000001
+          }
+        ]
+      },
+      "leaveOneScreenshotOut": {
+        "queries": 288,
+        "correct": 111,
+        "accuracy": 0.3854166666666667,
+        "coveredQueries": 270,
+        "coveredCorrect": 111,
+        "coveredAccuracy": 0.4111111111111111,
+        "occupiedCovered": 93,
+        "occupiedCorrect": 92,
+        "occupiedAccuracy": 0.989247311827957,
+        "milliseconds": 48.507,
+        "millisecondsPerQuery": 0.1684,
+        "failures": [
+          {
+            "id": "image.png:r0:c2",
+            "expected": "Eternal Furnace",
+            "predicted": "Alfonso’s Horn",
+            "score": 0.56375
+          },
+          {
+            "id": "image.png:r0:c3",
+            "expected": "Solis Parvo",
+            "predicted": "__empty__",
+            "score": 0.6
+          },
+          {
+            "id": "image.png:r0:c4",
+            "expected": "Windgrass Scarf",
+            "predicted": "Charm of Skill",
+            "score": 0.5475000000000001
+          },
+          {
+            "id": "image.png:r0:c5",
+            "expected": "Frozen Bow",
+            "predicted": "__empty__",
+            "score": 0.6625
+          },
+          {
+            "id": "image.png:r1:c0",
+            "expected": "Past",
+            "predicted": "Future",
+            "score": 0.653125
+          },
+          {
+            "id": "image.png:r1:c1",
+            "expected": "Ahmad’s Spirit Powder",
+            "predicted": "Blue Planet",
+            "score": 0.635
+          },
+          {
+            "id": "image.png:r1:c2",
+            "expected": "Begonia Sachet",
+            "predicted": "Foundation",
+            "score": 0.6180555555555557
+          },
+          {
+            "id": "image.png:r1:c3",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r1:c4",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r1:c5",
+            "expected": "Simultaneity",
+            "predicted": "Stack",
+            "score": 0.6791666666666667
+          },
+          {
+            "id": "image.png:r2:c0",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r2:c1",
+            "expected": "Thorns",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.6175
+          },
+          {
+            "id": "image.png:r2:c2",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r2:c3",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r2:c4",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r3:c0",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r3:c1",
+            "expected": "Advance",
+            "predicted": "Golden Handbell",
+            "score": 0.77
+          },
+          {
+            "id": "image.png:r3:c2",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r3:c3",
+            "expected": "__empty__",
+            "predicted": "Power",
+            "score": 0.6458333333333334
+          },
+          {
+            "id": "image.png:r3:c4",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image.png:r3:c5",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r1:c0",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r1:c1",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r1:c2",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r1:c3",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r1:c4",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r1:c5",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r2:c0",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r2:c1",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          },
+          {
+            "id": "image2.png:r2:c2",
+            "expected": "__empty__",
+            "predicted": "Foundation",
+            "score": 0
+          }
+        ]
+      }
+    },
+    "hybrid-retrieval": {
+      "kind": "pHash eight-label shortlist followed by normalized pixel verification",
+      "challenge": {
+        "queries": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 20,
+        "coveredAccuracy": 1,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 4.466,
+        "millisecondsPerQuery": 0.1861,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.7329204086440634
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Crown of Humility",
+            "score": 0.5059492228455625
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.8174881249313775
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Foundation",
+            "score": 0.8027784748796141
+          }
+        ]
+      },
+      "leaveOneScreenshotOut": {
+        "queries": 288,
+        "correct": 266,
+        "accuracy": 0.9236111111111112,
+        "coveredQueries": 270,
+        "coveredCorrect": 266,
+        "coveredAccuracy": 0.9851851851851852,
+        "occupiedCovered": 93,
+        "occupiedCorrect": 90,
+        "occupiedAccuracy": 0.967741935483871,
+        "milliseconds": 25.309,
+        "millisecondsPerQuery": 0.0879,
+        "failures": [
+          {
+            "id": "image.png:r0:c2",
+            "expected": "Eternal Furnace",
+            "predicted": "Charm of Skill",
+            "score": 0.7313080048894788
+          },
+          {
+            "id": "image.png:r0:c3",
+            "expected": "Solis Parvo",
+            "predicted": "Mouse Mage’s Pendant",
+            "score": 0.8149128546754871
+          },
+          {
+            "id": "image.png:r0:c4",
+            "expected": "Windgrass Scarf",
+            "predicted": "Blue Planet",
+            "score": 0.770701796692389
+          },
+          {
+            "id": "image.png:r0:c5",
+            "expected": "Frozen Bow",
+            "predicted": "Charm of Skill",
+            "score": 0.8984077893791476
+          },
+          {
+            "id": "image.png:r1:c0",
+            "expected": "Past",
+            "predicted": "Future",
+            "score": 0.8244088638793959
+          },
+          {
+            "id": "image.png:r1:c1",
+            "expected": "Ahmad’s Spirit Powder",
+            "predicted": "Blue Planet",
+            "score": 0.8248383417986576
+          },
+          {
+            "id": "image.png:r1:c2",
+            "expected": "Begonia Sachet",
+            "predicted": "Lucky Medal",
+            "score": 0.7163123217455315
+          },
+          {
+            "id": "image.png:r1:c5",
+            "expected": "Simultaneity",
+            "predicted": "Disconnection",
+            "score": 0.8174881249313775
+          },
+          {
+            "id": "image.png:r2:c1",
+            "expected": "Thorns",
+            "predicted": "Blue Planet",
+            "score": 0.8469638896156942
+          },
+          {
+            "id": "image.png:r3:c1",
+            "expected": "Advance",
+            "predicted": "Stack",
+            "score": 0.6861593807040752
+          },
+          {
+            "id": "15-15-04.png:r0:c2",
+            "expected": "Lucky Medal",
+            "predicted": "Advent",
+            "score": 0.6634557194787385
+          },
+          {
+            "id": "15-15-04.png:r0:c3",
+            "expected": "Zappy Custard Pastry",
+            "predicted": "Ahmad’s Spirit Powder",
+            "score": 0.6587945312058725
+          },
+          {
+            "id": "15-20-26.png:r0:c2",
+            "expected": "Moment of Lambic",
+            "predicted": "Charm of Skill",
+            "score": 0.7012791274519292
+          },
+          {
+            "id": "15-35-41.png:r1:c5",
+            "expected": "Mouse Mage’s Pendant",
+            "predicted": "Solis Parvo",
+            "score": 0.8149128546754871
+          },
+          {
+            "id": "15-40-28.png:r0:c1",
+            "expected": "Blue Planet",
+            "predicted": "Thorns",
+            "score": 0.8469638896156942
+          },
+          {
+            "id": "15-40-28.png:r3:c1",
+            "expected": "Eternal Winter",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.7311892497455077
+          },
+          {
+            "id": "15-48-31.png:r2:c0",
+            "expected": "__empty__",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.8390972241487359
+          },
+          {
+            "id": "16-00-29.png:r0:c4",
+            "expected": "Battle Bracelet of Lerid",
+            "predicted": "Past",
+            "score": 0.6590291069983116
+          },
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Future",
+            "score": 0.7329204086440634
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Crown of Humility",
+            "score": 0.5059492228455625
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.8174881249313775
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Foundation",
+            "score": 0.8027784748796141
+          }
+        ]
+      }
+    },
+    "tiny-cnn-classifier": {
+      "kind": "two-convolution closed-set classifier trained only on the other screenshots",
+      "trainingMilliseconds": 308283.735,
+      "challenge": {
+        "queries": 24,
+        "correct": 6,
+        "accuracy": 0.25,
+        "coveredQueries": 20,
+        "coveredCorrect": 6,
+        "coveredAccuracy": 0.3,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 0,
+        "occupiedAccuracy": 0,
+        "milliseconds": 80.656,
+        "millisecondsPerQuery": 3.3607,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "__empty__",
+            "score": 0.05908127501606941
+          },
+          {
+            "id": "16-08-37.png:r0:c1",
+            "expected": "Alfonso’s Horn",
+            "predicted": "Lucky Medal",
+            "score": 0.038655783981084824
+          },
+          {
+            "id": "16-08-37.png:r0:c2",
+            "expected": "Keel Fragment",
+            "predicted": "Lucky Medal",
+            "score": 0.0470888614654541
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "__empty__",
+            "score": 0.04877446964383125
+          },
+          {
+            "id": "16-08-37.png:r0:c4",
+            "expected": "Foundation",
+            "predicted": "__empty__",
+            "score": 0.03593911975622177
+          },
+          {
+            "id": "16-08-37.png:r0:c5",
+            "expected": "Charm of Skill",
+            "predicted": "Golden Maple Leaf",
+            "score": 0.03762556612491608
+          },
+          {
+            "id": "16-08-37.png:r1:c0",
+            "expected": "Advent",
+            "predicted": "Lucky Medal",
+            "score": 0.052311841398477554
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "__empty__",
+            "score": 0.03833677992224693
+          },
+          {
+            "id": "16-08-37.png:r1:c3",
+            "expected": "Golden Maple Leaf",
+            "predicted": "Lucky Medal",
+            "score": 0.044915955513715744
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "__empty__",
+            "score": 0.03577066957950592
+          },
+          {
+            "id": "16-08-37.png:r1:c5",
+            "expected": "Magic Glasses",
+            "predicted": "Lucky Medal",
+            "score": 0.04184146970510483
+          },
+          {
+            "id": "16-08-37.png:r2:c0",
+            "expected": "Harvest",
+            "predicted": "__empty__",
+            "score": 0.04163023456931114
+          },
+          {
+            "id": "16-08-37.png:r2:c1",
+            "expected": "Cloak of Verdant Spirit",
+            "predicted": "Lucky Medal",
+            "score": 0.055805716663599014
+          },
+          {
+            "id": "16-08-37.png:r2:c3",
+            "expected": "Binary Star",
+            "predicted": "__empty__",
+            "score": 0.036884989589452744
+          },
+          {
+            "id": "16-08-37.png:r2:c5",
+            "expected": "Broken Sapphire",
+            "predicted": "Lucky Medal",
+            "score": 0.03950066864490509
+          },
+          {
+            "id": "16-08-37.png:r3:c0",
+            "expected": "Silver Plate",
+            "predicted": "Begonia Sachet",
+            "score": 0.05328867584466934
+          },
+          {
+            "id": "16-08-37.png:r3:c2",
+            "expected": "Crown of Humility",
+            "predicted": "Lucky Medal",
+            "score": 0.04365742951631546
+          },
+          {
+            "id": "16-08-37.png:r3:c3",
+            "expected": "Pointed Club",
+            "predicted": "Lucky Medal",
+            "score": 0.04104669764637947
+          }
+        ]
+      }
+    },
+    "cnn-embedding": {
+      "kind": "nearest-neighbor retrieval using the CNN penultimate layer",
+      "sharedTrainingMilliseconds": 308283.735,
+      "challenge": {
+        "queries": 24,
+        "correct": 17,
+        "accuracy": 0.7083333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 17,
+        "coveredAccuracy": 0.85,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 11,
+        "occupiedAccuracy": 0.7857142857142857,
+        "milliseconds": 24.736,
+        "millisecondsPerQuery": 1.0307,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Stack",
+            "score": 0.9972528191574315
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Foundation",
+            "score": 0.9971622335311598
+          },
+          {
+            "id": "16-08-37.png:r0:c4",
+            "expected": "Foundation",
+            "predicted": "Future",
+            "score": 0.9986345871848429
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Alfonso’s Horn",
+            "score": 0.9905928663197939
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Binary Star",
+            "score": 0.9983063038682282
+          },
+          {
+            "id": "16-08-37.png:r2:c1",
+            "expected": "Cloak of Verdant Spirit",
+            "predicted": "Foundation",
+            "score": 0.999156398548872
+          },
+          {
+            "id": "16-08-37.png:r2:c5",
+            "expected": "Broken Sapphire",
+            "predicted": "Alfonso’s Horn",
+            "score": 0.9991902378137151
+          }
+        ]
+      }
+    },
+    "siamese-embedding": {
+      "kind": "shared-weight twin MLP trained with contrastive loss over icon descriptors",
+      "trainingMilliseconds": 6639.503,
+      "challenge": {
+        "queries": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "coveredQueries": 20,
+        "coveredCorrect": 20,
+        "coveredAccuracy": 1,
+        "occupiedCovered": 14,
+        "occupiedCorrect": 14,
+        "occupiedAccuracy": 1,
+        "milliseconds": 8.413,
+        "millisecondsPerQuery": 0.3505,
+        "failures": [
+          {
+            "id": "16-08-37.png:r0:c0",
+            "expected": "Leaf Bird Leather",
+            "predicted": "Past",
+            "score": 0.9138189261784517
+          },
+          {
+            "id": "16-08-37.png:r0:c3",
+            "expected": "Exploitation",
+            "predicted": "Foundation",
+            "score": 0.9324475151458335
+          },
+          {
+            "id": "16-08-37.png:r1:c1",
+            "expected": "Disconnection",
+            "predicted": "Simultaneity",
+            "score": 0.9728097448339204
+          },
+          {
+            "id": "16-08-37.png:r1:c4",
+            "expected": "Peace",
+            "predicted": "Foundation",
+            "score": 0.9761372831112314
+          }
+        ]
+      }
+    },
+    "dense-window-object-detector": {
+      "kind": "8-pixel-stride CNN scan plus non-maximum suppression inside the inventory grid ROI",
+      "tooltipOrLabelPixels": false,
+      "windows": 273,
+      "candidateBoxes": 0,
+      "detections": 0,
+      "truthObjects": 18,
+      "localized": 0,
+      "localizationRecall": 0,
+      "localizedAndClassified": 0,
+      "identityRecall": 0,
+      "milliseconds": 747.903,
+      "detectionsDetail": []
+    }
+  },
+  "interpretation": {
+    "limits": [
+      "Only 111 occupied cells and 40 identities are labeled; deep-learning results are feasibility measurements, not production estimates.",
+      "Adjacent screenshots can be visually similar, so leave-one-screenshot-out is less strict than a new gameplay-session holdout.",
+      "Object detection is restricted to the inventory grid ROI to preserve the no-tooltip/no-label policy.",
+      "A class absent from training cannot be recognized by the learned closed-set methods."
+    ]
+  }
+}

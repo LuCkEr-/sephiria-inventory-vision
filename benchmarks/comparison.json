@@ -1,0 +1,230 @@
+{
+  "generatedAt": "2026-08-08T18:56:25.789Z",
+  "screenshots": 12,
+  "comparisonPolicy": "inventory-grid pixels only; no tooltip, label, or OCR input",
+  "methods": {
+    "template": "masked OpenCV SQDIFF against 571 templates, including calibrated renders",
+    "vision": "HOG + spatial chromaticity + normalized luminance + centered RGB signature, augmented 1-nearest-neighbor"
+  },
+  "runtime": {
+    "templateAverageTotalMs": 1656.3664166666667,
+    "templateAverageIdentityMs": 1517.4575000000002,
+    "visionAverageTotalMs": 225.67400000000006,
+    "visionAverageIdentityMs": 74.74016666666667,
+    "totalSpeedup": 7.339642212513033,
+    "identitySpeedup": 20.303105648234663
+  },
+  "sameSetAgreement": {
+    "note": "Vision references include these screenshots; use leave-one-screenshot-out below for generalization.",
+    "agreements": 288,
+    "slots": 288,
+    "rate": 1
+  },
+  "frozenGroundTruth": {
+    "cells": 288,
+    "templateCorrect": 288,
+    "templateAccuracy": 1,
+    "visionCorrect": 288,
+    "visionAccuracy": 1
+  },
+  "leaveOneScreenshotOut": {
+    "note": "Every query is compared only with references from the other 11 screenshots.",
+    "coveredSlots": 270,
+    "correctSlots": 269,
+    "accuracy": 0.9962962962962963,
+    "coveredItemSlots": 93,
+    "correctItemSlots": 92,
+    "itemAccuracy": 0.989247311827957,
+    "unseenClassSlots": 18,
+    "failures": [
+      {
+        "screenshot": "Sephiria_2026-08-07_15-15-04.png",
+        "row": 0,
+        "column": 3,
+        "expected": "Zappy Custard Pastry",
+        "predicted": "Golden Maple Leaf",
+        "score": 0.9041954403990011
+      }
+    ]
+  },
+  "familyHoldout": {
+    "note": "All screenshots from the query capture family are excluded together.",
+    "coveredItemSlots": 30,
+    "correctItemSlots": 28,
+    "itemAccuracy": 0.9333333333333333
+  },
+  "openSet": {
+    "note": "Each item's class is removed from matching. In-model calibration uses the deployed full model; strict holdout calibration is rebuilt without the query class.",
+    "queries": 111,
+    "rawFalseAccepts": 19,
+    "rawFalseAcceptRate": 0.17117117117117117,
+    "inModelCalibratedFalseAccepts": 0,
+    "inModelCalibratedFalseAcceptRate": 0,
+    "holdoutCalibratedFalseAccepts": 0,
+    "holdoutCalibratedFalseAcceptRate": 0
+  },
+  "robustness": [
+    {
+      "transformation": "brightness-85",
+      "correctCells": 24,
+      "cells": 24,
+      "accuracy": 1,
+      "failures": []
+    },
+    {
+      "transformation": "jpeg-80",
+      "correctCells": 24,
+      "cells": 24,
+      "accuracy": 1,
+      "failures": []
+    },
+    {
+      "transformation": "nearest-150",
+      "correctCells": 24,
+      "cells": 24,
+      "accuracy": 1,
+      "failures": []
+    },
+    {
+      "transformation": "bilinear-150",
+      "correctCells": 24,
+      "cells": 24,
+      "accuracy": 1,
+      "failures": []
+    }
+  ],
+  "perScreenshot": [
+    {
+      "screenshot": "image.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1253.485,
+      "templateMatchMs": 1096.83,
+      "visionMs": 199.298,
+      "visionMatchMs": 63.953
+    },
+    {
+      "screenshot": "image2.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1696.336,
+      "templateMatchMs": 1542.162,
+      "visionMs": 281.8,
+      "visionMatchMs": 78.5
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_14-39-32.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1719.802,
+      "templateMatchMs": 1560.22,
+      "visionMs": 223.734,
+      "visionMatchMs": 60.088
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-05-25.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1722.496,
+      "templateMatchMs": 1569.111,
+      "visionMs": 230.91,
+      "visionMatchMs": 84.541
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-15-04.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1771.764,
+      "templateMatchMs": 1630.381,
+      "visionMs": 228.939,
+      "visionMatchMs": 67.844
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-16-10.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1674.391,
+      "templateMatchMs": 1534.885,
+      "visionMs": 234.306,
+      "visionMatchMs": 74.721
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-20-26.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1624.432,
+      "templateMatchMs": 1491.683,
+      "visionMs": 225.122,
+      "visionMatchMs": 77.479
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-35-41.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1678.153,
+      "templateMatchMs": 1549.614,
+      "visionMs": 226.151,
+      "visionMatchMs": 81.691
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-40-28.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1708.971,
+      "templateMatchMs": 1577.8,
+      "visionMs": 229.366,
+      "visionMatchMs": 79.46
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_15-48-31.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1655.46,
+      "templateMatchMs": 1529.646,
+      "visionMs": 214.762,
+      "visionMatchMs": 72.221
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_16-00-29.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1687.47,
+      "templateMatchMs": 1570.117,
+      "visionMs": 211.289,
+      "visionMatchMs": 80.701
+    },
+    {
+      "screenshot": "Sephiria_2026-08-07_16-08-37.png",
+      "slots": 24,
+      "agreements": 24,
+      "templateCorrect": 24,
+      "visionCorrect": 24,
+      "templateMs": 1683.637,
+      "templateMatchMs": 1557.041,
+      "visionMs": 202.411,
+      "visionMatchMs": 75.683
+    }
+  ]
+}

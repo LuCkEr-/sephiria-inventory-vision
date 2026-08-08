@@ -1,0 +1,740 @@
+[
+  {
+    "id": "curated-foundation",
+    "name": "Foundation",
+    "file": "foundation-rendered.png",
+    "width": 24,
+    "height": 14,
+    "sourceFile": "sharedassets0.assets",
+    "pathId": 47496,
+    "spriteName": "StoneTablet_Foundation",
+    "displayNames": [
+      "Foundation"
+    ],
+    "itemIds": [
+      2029
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-golden-maple-leaf",
+    "name": "Golden Maple Leaf",
+    "file": "golden-maple-leaf-rendered.png",
+    "width": 15,
+    "height": 16,
+    "sourceFile": "resources.assets",
+    "pathId": 12868,
+    "spriteName": "GoldenMapleLeaf",
+    "displayNames": [
+      "Golden Maple Leaf"
+    ],
+    "itemIds": [
+      1126
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-cloak-of-verdant-spirit",
+    "name": "Cloak of Verdant Spirit",
+    "file": "cloak-of-verdant-spirit-rendered.png",
+    "width": 24,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 10451,
+    "spriteName": "SnowwhiteCape_Wind",
+    "displayNames": [
+      "Cloak of Verdant Spirit"
+    ],
+    "itemIds": [
+      1252
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-lucky-medal",
+    "name": "Lucky Medal",
+    "file": "lucky-medal-rendered.png",
+    "width": 22,
+    "height": 22,
+    "sourceFile": "resources.assets",
+    "pathId": 15223,
+    "spriteName": "QuestGoldIcon",
+    "displayNames": [
+      "Lucky Medal"
+    ],
+    "itemIds": [
+      1271
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-zappy-custard-pastry",
+    "name": "Zappy Custard Pastry",
+    "file": "zappy-custard-pastry-rendered.png",
+    "width": 19,
+    "height": 17,
+    "sourceFile": "resources.assets",
+    "pathId": 14284,
+    "spriteName": "EletricEclair",
+    "displayNames": [
+      "Zappy Custard Pastry"
+    ],
+    "itemIds": [
+      1074
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-charm-of-skill",
+    "name": "Charm of Skill",
+    "file": "charm-of-skill-rendered.png",
+    "width": 16,
+    "height": 14,
+    "sourceFile": "resources.assets",
+    "pathId": 14399,
+    "spriteName": "CharmOfDexterity",
+    "displayNames": [
+      "Charm of Skill"
+    ],
+    "itemIds": [
+      1001
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-future",
+    "name": "Future",
+    "file": "future-rendered.png",
+    "width": 18,
+    "height": 14,
+    "sourceFile": "resources.assets",
+    "pathId": 9888,
+    "spriteName": "StoneTablet_Future",
+    "displayNames": [
+      "Future"
+    ],
+    "itemIds": [
+      2040
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-stack",
+    "name": "Stack",
+    "file": "stack-rendered.png",
+    "width": 14,
+    "height": 18,
+    "sourceFile": "resources.assets",
+    "pathId": 10974,
+    "spriteName": "StoneTablet_Stack",
+    "displayNames": [
+      "Stack"
+    ],
+    "itemIds": [
+      2041
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-healing-stream",
+    "name": "Healing Stream",
+    "file": "healing-stream-rendered.png",
+    "width": 26,
+    "height": 27,
+    "sourceFile": "sharedassets0.assets",
+    "pathId": 35768,
+    "spriteName": "MagicBook3",
+    "displayNames": [
+      "Healing Stream"
+    ],
+    "itemIds": [
+      3005
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-moment-of-lambic",
+    "name": "Moment of Lambic",
+    "file": "moment-of-lambic-rendered.png",
+    "width": 13,
+    "height": 14,
+    "sourceFile": "resources.assets",
+    "pathId": 13876,
+    "spriteName": "RandomPotion_small",
+    "displayNames": [
+      "Moment of Lambic"
+    ],
+    "itemIds": [
+      44
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-blue-planet",
+    "name": "Blue Planet",
+    "file": "blue-planet-rendered.png",
+    "width": 16,
+    "height": 14,
+    "sourceFile": "resources.assets",
+    "pathId": 10119,
+    "spriteName": "PlanetaryModels",
+    "displayNames": [
+      "Blue Planet"
+    ],
+    "itemIds": [
+      1015
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-alfonso-s-horn",
+    "name": "Alfonso’s Horn",
+    "file": "alfonso-s-horn-rendered.png",
+    "width": 25,
+    "height": 19,
+    "sourceFile": "resources.assets",
+    "pathId": 10157,
+    "spriteName": "Alfonso’sHorn",
+    "displayNames": [
+      "Alfonso’s Horn"
+    ],
+    "itemIds": [
+      1130
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-binary-star",
+    "name": "Binary Star",
+    "file": "binary-star-rendered.png",
+    "width": 24,
+    "height": 16,
+    "sourceFile": "resources.assets",
+    "pathId": 11656,
+    "spriteName": "StoneTablet_BinaryStar2",
+    "displayNames": [
+      "Binary Star"
+    ],
+    "itemIds": [
+      2017
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 90
+  },
+  {
+    "id": "curated-harvest",
+    "name": "Harvest",
+    "file": "harvest-rendered.png",
+    "width": 24,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 11345,
+    "spriteName": "StoneTablet_Harvest",
+    "displayNames": [
+      "Harvest"
+    ],
+    "itemIds": [
+      2027
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-eternal-winter",
+    "name": "Eternal Winter",
+    "file": "eternal-winter-rendered.png",
+    "width": 15,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 10397,
+    "spriteName": "SwordInIce",
+    "displayNames": [
+      "Eternal Winter"
+    ],
+    "itemIds": [
+      1268
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-silver-plate",
+    "name": "Silver Plate",
+    "file": "silver-plate-rendered.png",
+    "width": 26,
+    "height": 17,
+    "sourceFile": "resources.assets",
+    "pathId": 12344,
+    "spriteName": "SilverPlate",
+    "displayNames": [
+      "Silver Plate"
+    ],
+    "itemIds": [
+      1086
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-crown-of-humility",
+    "name": "Crown of Humility",
+    "file": "crown-of-humility-rendered.png",
+    "width": 22,
+    "height": 12,
+    "sourceFile": "resources.assets",
+    "pathId": 14136,
+    "spriteName": "CrownOfHumility(1)",
+    "displayNames": [
+      "Crown of Humility"
+    ],
+    "itemIds": [
+      1080
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-keel-fragment",
+    "name": "Keel Fragment",
+    "file": "keel-fragment-rendered.png",
+    "width": 26,
+    "height": 20,
+    "sourceFile": "resources.assets",
+    "pathId": 15645,
+    "spriteName": "KeelFrgment",
+    "displayNames": [
+      "Keel Fragment"
+    ],
+    "itemIds": [
+      1012
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-power",
+    "name": "Power",
+    "file": "power-rendered.png",
+    "width": 16,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 9902,
+    "spriteName": "StoneTablet_Power",
+    "displayNames": [
+      "Power"
+    ],
+    "itemIds": [
+      2045
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-advent",
+    "name": "Advent",
+    "file": "advent-rendered.png",
+    "width": 16,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 9386,
+    "spriteName": "StoneTablet_Advent",
+    "displayNames": [
+      "Advent"
+    ],
+    "itemIds": [
+      2021
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-golden-handbell",
+    "name": "Golden Handbell",
+    "file": "golden-handbell-rendered.png",
+    "width": 14,
+    "height": 22,
+    "sourceFile": "resources.assets",
+    "pathId": 14124,
+    "spriteName": "GoldHandBell",
+    "displayNames": [
+      "Golden Handbell"
+    ],
+    "itemIds": [
+      1029
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-broken-sapphire",
+    "name": "Broken Sapphire",
+    "file": "broken-sapphire-rendered.png",
+    "width": 16,
+    "height": 18,
+    "sourceFile": "resources.assets",
+    "pathId": 10151,
+    "spriteName": "ShatteredSapphire",
+    "displayNames": [
+      "Broken Sapphire"
+    ],
+    "itemIds": [
+      1077
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-battle-bracelet-of-lerid",
+    "name": "Battle Bracelet of Lerid",
+    "file": "battle-bracelet-of-lerid-rendered.png",
+    "width": 20,
+    "height": 20,
+    "sourceFile": "resources.assets",
+    "pathId": 10604,
+    "spriteName": "Giant_s Bracelet",
+    "displayNames": [
+      "Battle Bracelet of Lerid"
+    ],
+    "itemIds": [
+      1279
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-magic-glasses",
+    "name": "Magic Glasses",
+    "file": "magic-glasses-rendered.png",
+    "width": 22,
+    "height": 16,
+    "sourceFile": "resources.assets",
+    "pathId": 8929,
+    "spriteName": "MagicGlasses",
+    "displayNames": [
+      "Magic Glasses"
+    ],
+    "itemIds": [
+      1163
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-pointed-club",
+    "name": "Pointed Club",
+    "file": "pointed-club-rendered.png",
+    "width": 24,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 12360,
+    "spriteName": "SharpBat",
+    "displayNames": [
+      "Pointed Club"
+    ],
+    "itemIds": [
+      1151
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-leaf-bird-leather",
+    "name": "Leaf Bird Leather",
+    "file": "leaf-bird-leather-rendered.png",
+    "width": 23,
+    "height": 18,
+    "sourceFile": "resources.assets",
+    "pathId": 10749,
+    "spriteName": "LeafyLeather",
+    "displayNames": [
+      "Leaf Bird Leather"
+    ],
+    "itemIds": [
+      1072
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-exploitation",
+    "name": "Exploitation",
+    "file": "exploitation-rendered.png",
+    "width": 24,
+    "height": 16,
+    "sourceFile": "resources.assets",
+    "pathId": 9232,
+    "spriteName": "StoneTablet_Exploitation",
+    "displayNames": [
+      "Exploitation"
+    ],
+    "itemIds": [
+      2005
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-disconnection",
+    "name": "Disconnection",
+    "file": "disconnection-rendered.png",
+    "width": 21,
+    "height": 26,
+    "sourceFile": "resources.assets",
+    "pathId": 9676,
+    "spriteName": "StoneTablet_h_P3M5",
+    "displayNames": [
+      "Disconnection"
+    ],
+    "itemIds": [
+      2049
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-peace",
+    "name": "Peace",
+    "file": "peace-rendered.png",
+    "width": 25,
+    "height": 21,
+    "sourceFile": "sharedassets0.assets",
+    "pathId": 35445,
+    "spriteName": "StoneTabletN_Peace",
+    "displayNames": [
+      "Peace"
+    ],
+    "itemIds": [
+      2054
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-mouse-mage-s-pendant",
+    "name": "Mouse Mage’s Pendant",
+    "file": "mouse-mage-s-pendant-rendered.png",
+    "width": 22,
+    "height": 23,
+    "sourceFile": "resources.assets",
+    "pathId": 9974,
+    "spriteName": "MouseWizard_sPendant",
+    "displayNames": [
+      "Mouse Mage’s Pendant"
+    ],
+    "itemIds": [
+      1073
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-mouse-mages-pendant-gold",
+    "name": "Mouse Mage’s Pendant",
+    "file": "mouse-mages-pendant-gold-rendered.png",
+    "width": 22,
+    "height": 23,
+    "sourceFile": "resources.assets",
+    "pathId": 9974,
+    "spriteName": "MouseWizard_sPendant",
+    "displayNames": [
+      "Mouse Mage’s Pendant"
+    ],
+    "itemIds": [
+      1073
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-eternal-furnace",
+    "name": "Eternal Furnace",
+    "file": "eternal-furnace-rendered.png",
+    "width": 21,
+    "height": 26,
+    "sourceFile": "resources.assets",
+    "pathId": 12655,
+    "spriteName": "SunFurnace",
+    "displayNames": [
+      "Eternal Furnace"
+    ],
+    "itemIds": [
+      1231
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-solis-parvo",
+    "name": "Solis Parvo",
+    "file": "solis-parvo-rendered.png",
+    "width": 13,
+    "height": 25,
+    "sourceFile": "resources.assets",
+    "pathId": 12244,
+    "spriteName": "FlameSwordArts0",
+    "displayNames": [
+      "Solis Parvo"
+    ],
+    "itemIds": [
+      1232
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-windgrass-scarf",
+    "name": "Windgrass Scarf",
+    "file": "windgrass-scarf-rendered.png",
+    "width": 20,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 16193,
+    "spriteName": "WindGrassScarf",
+    "displayNames": [
+      "Windgrass Scarf"
+    ],
+    "itemIds": [
+      1011
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-frozen-bow",
+    "name": "Frozen Bow",
+    "file": "frozen-bow-rendered.png",
+    "width": 23,
+    "height": 23,
+    "sourceFile": "resources.assets",
+    "pathId": 16154,
+    "spriteName": "IceBow",
+    "displayNames": [
+      "Frozen Bow"
+    ],
+    "itemIds": [
+      1247
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-past",
+    "name": "Past",
+    "file": "past-rendered.png",
+    "width": 18,
+    "height": 14,
+    "sourceFile": "resources.assets",
+    "pathId": 13530,
+    "spriteName": "StoneTablet_Past",
+    "displayNames": [
+      "Past"
+    ],
+    "itemIds": [
+      2039
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-ahmad-s-spirit-powder",
+    "name": "Ahmad’s Spirit Powder",
+    "file": "ahmad-s-spirit-powder-rendered.png",
+    "width": 16,
+    "height": 19,
+    "sourceFile": "resources.assets",
+    "pathId": 11377,
+    "spriteName": "JellyFishDust1",
+    "displayNames": [
+      "Ahmad’s Spirit Powder"
+    ],
+    "itemIds": [
+      1200
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-begonia-sachet",
+    "name": "Begonia Sachet",
+    "file": "begonia-sachet-rendered.png",
+    "width": 19,
+    "height": 19,
+    "sourceFile": "resources.assets",
+    "pathId": 11196,
+    "spriteName": "BegoniaSachet",
+    "displayNames": [
+      "Begonia Sachet"
+    ],
+    "itemIds": [
+      1218
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-simultaneity",
+    "name": "Simultaneity",
+    "file": "simultaneity-rendered.png",
+    "width": 14,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 13414,
+    "spriteName": "StoneTablet_Simultaneity",
+    "displayNames": [
+      "Simultaneity"
+    ],
+    "itemIds": [
+      2048
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-thorns",
+    "name": "Thorns",
+    "file": "thorns-rendered.png",
+    "width": 22,
+    "height": 22,
+    "sourceFile": "sharedassets0.assets",
+    "pathId": 46066,
+    "spriteName": "StoneTablet_h_360",
+    "displayNames": [
+      "Thorns"
+    ],
+    "itemIds": [
+      2035
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  },
+  {
+    "id": "curated-advance",
+    "name": "Advance",
+    "file": "advance-rendered.png",
+    "width": 16,
+    "height": 24,
+    "sourceFile": "resources.assets",
+    "pathId": 13073,
+    "spriteName": "StoneTablet_Advance",
+    "displayNames": [
+      "Advance"
+    ],
+    "itemIds": [
+      2028
+    ],
+    "ambiguousIdentity": false,
+    "rotationDegrees": 0
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "name": "sephiria-inventory-vision",
+  "version": "0.8.0",
+  "description": "Robust, icon-only Sephiria inventory detection with an augmented vision cascade and OpenCV game-asset verification.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./lab": {
+      "types": "./dist/lab.d.ts",
+      "import": "./dist/lab.js"
+    }
+  },
+  "files": [
+    "dist",
+    "assets",
+    "benchmarks",
+    "examples",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "example": "tsx examples/detect-screenshot.ts",
+    "example:cascade": "tsx examples/detect-cascade.ts",
+    "generate:curated": "tsx scripts/generate-curated-real-templates.ts",
+    "import:real-fixtures": "tsx scripts/import-real-regression-fixtures.ts",
+    "generate:catalog": "tsx scripts/generate-catalog.ts",
+    "generate:vision": "tsx scripts/generate-vision-model.ts",
+    "benchmark": "tsx scripts/compare-detectors.ts",
+    "benchmark:methods": "tsx scripts/compare-all-methods.ts",
+    "benchmark:cascade": "tsx scripts/benchmark-cascade.ts",
+    "benchmark:cascade-cv": "tsx scripts/benchmark-cascade-cross-validation.ts",
+    "benchmark:open-set": "tsx scripts/benchmark-game-asset-open-set.ts",
+    "benchmark:memory": "node --expose-gc --import tsx scripts/benchmark-memory.ts",
+    "format": "prettier --write src scripts test examples *.json *.md eslint.config.js",
+    "format:check": "prettier --check src scripts test examples *.json *.md eslint.config.js",
+    "lint": "eslint src scripts test examples",
+    "quality": "npm run format:check && npm run lint && npm run typecheck",
+    "test": "tsx --test test/*.test.ts",
+    "test:coverage": "node --import tsx --test --experimental-test-coverage --test-coverage-lines=99.5 --test-coverage-functions=100 --test-coverage-branches=92.5 test/*.test.ts",
+    "test:evaluation": "tsx --test test/ground-truth.test.ts test/evaluation.test.ts test/game-asset-open-set.test.ts",
+    "test:package": "tsx scripts/verify-package.ts",
+    "test:package:lint": "publint --strict",
+    "test:package:types": "attw --pack . --profile esm-only --entrypoints . ./lab",
+    "test:install": "tsx scripts/verify-install.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "verify": "npm run quality && npm run test:coverage && npm run build && npm run test:package && npm run test:package:lint && npm run test:package:types && npm run test:install",
+    "verify:release": "npm run verify && npm run benchmark:cascade && npm run benchmark:cascade-cv && npm run benchmark:open-set && npm run benchmark:memory && npm audit --audit-level=high"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@techstark/opencv-js": "5.0.0-release.1",
+    "sharp": "0.35.3"
+  },
+  "peerDependencies": {
+    "@tensorflow/tfjs": "^4.22.0"
+  },
+  "peerDependenciesMeta": {
+    "@tensorflow/tfjs": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.18.5",
+    "@eslint/js": "^10.0.1",
+    "@tensorflow/tfjs": "4.22.0",
+    "@types/node": "^24.10.0",
+    "eslint": "^10.8.1",
+    "prettier": "^3.9.6",
+    "publint": "^0.3.23",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.66.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "allowScripts": {
+    "core-js@3.29.1": true,
+    "esbuild@0.28.1": true
+  }
+}

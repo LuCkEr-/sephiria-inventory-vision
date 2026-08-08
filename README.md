@@ -32,10 +32,36 @@ npm run verify
 
 Node.js 20 or newer is required.
 
+For consumers, route the package scope to GitHub Packages in `.npmrc`:
+
+```ini
+@lucker-:registry=https://npm.pkg.github.com
+```
+
+Then install with an authenticated npm client:
+
+```powershell
+npm install @lucker-/sephiria-inventory-vision
+```
+
+## Browser workers
+
+The `/browser` entry point has no Node.js or native dependencies. It exposes the same compact 32×32 RGB descriptor used by the vision backend, plus label-aware ranking for catalogs containing multiple scales or rotations:
+
+```ts
+import {
+  extractVisionFeatures,
+  rankVisionFeatures,
+} from "@lucker-/sephiria-inventory-vision/browser";
+
+const query = extractVisionFeatures(rgbBytes, 32, 32);
+const matches = rankVisionFeatures(query, references, 3);
+```
+
 ## Recommended cascade
 
 ```ts
-import { createInventoryCascadeDetector } from "sephiria-inventory-vision";
+import { createInventoryCascadeDetector } from "@lucker-/sephiria-inventory-vision";
 
 const detector = await createInventoryCascadeDetector();
 try {
@@ -72,7 +98,7 @@ npm run benchmark:memory
 ## Automatic slot localization
 
 ```ts
-import { createInventoryVisionDetector } from "sephiria-inventory-vision";
+import { createInventoryVisionDetector } from "@lucker-/sephiria-inventory-vision";
 
 const detector = await createInventoryVisionDetector();
 
@@ -147,7 +173,7 @@ import {
   CLASSICAL_METHODS,
   classifyMethodCell,
   prepareMethodCell,
-} from "sephiria-inventory-vision/lab";
+} from "@lucker-/sephiria-inventory-vision/lab";
 
 const references = labeledCells.map((cell) => prepareMethodCell(cell));
 for (const method of CLASSICAL_METHODS) {
@@ -238,7 +264,7 @@ The vision detector includes ranked, name-deduplicated alternatives and records 
 To use the original matcher from the same package:
 
 ```ts
-import { createInventoryDetector } from "sephiria-inventory-vision";
+import { createInventoryDetector } from "@lucker-/sephiria-inventory-vision";
 
 const templateDetector = await createInventoryDetector();
 ```

@@ -1,6 +1,6 @@
 {
-  "name": "sephiria-inventory-vision",
-  "version": "0.8.0",
+  "name": "@lucker-/sephiria-inventory-vision",
+  "version": "0.9.0",
   "description": "Robust, icon-only Sephiria inventory detection with an augmented vision cascade and OpenCV game-asset verification.",
   "type": "module",
   "sideEffects": false,
@@ -14,7 +14,18 @@
     "./lab": {
       "types": "./dist/lab.d.ts",
       "import": "./dist/lab.js"
+    },
+    "./browser": {
+      "types": "./dist/browser.d.ts",
+      "import": "./dist/browser.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuCkEr-/sephiria-inventory-vision.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist",
@@ -47,7 +58,7 @@
     "test:evaluation": "tsx --test test/ground-truth.test.ts test/evaluation.test.ts test/game-asset-open-set.test.ts",
     "test:package": "tsx scripts/verify-package.ts",
     "test:package:lint": "publint --strict",
-    "test:package:types": "attw --pack . --profile esm-only --entrypoints . ./lab",
+    "test:package:types": "attw --pack . --profile esm-only --entrypoints . ./lab ./browser",
     "test:install": "tsx scripts/verify-install.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "verify": "npm run quality && npm run test:coverage && npm run build && npm run test:package && npm run test:package:lint && npm run test:package:types && npm run test:install",
@@ -81,7 +92,6 @@
     "typescript-eslint": "^8.66.0"
   },
   "license": "UNLICENSED",
-  "private": true,
   "allowScripts": {
     "core-js@3.29.1": true,
     "esbuild@0.28.1": true

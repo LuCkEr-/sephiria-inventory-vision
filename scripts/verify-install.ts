@@ -46,7 +46,12 @@ try {
     temporaryRoot,
   );
 
-  const installedRoot = join(temporaryRoot, "node_modules", "sephiria-inventory-vision");
+  const installedRoot = join(
+    temporaryRoot,
+    "node_modules",
+    "@lucker-",
+    "sephiria-inventory-vision",
+  );
   const installedPackage = JSON.parse(
     await readFile(join(installedRoot, "package.json"), "utf8"),
   ) as { name: string; version: string };
@@ -85,7 +90,9 @@ try {
     `import assert from "node:assert/strict";
 import * as production from ${JSON.stringify(pathToFileURL(join(installedRoot, "dist", "index.js")).href)};
 import * as lab from ${JSON.stringify(pathToFileURL(join(installedRoot, "dist", "lab.js")).href)};
+import * as browser from ${JSON.stringify(pathToFileURL(join(installedRoot, "dist", "browser.js")).href)};
 assert.equal(lab.CLASSICAL_METHODS.length, 5);
+assert.deepEqual(browser.rankVisionFeatures([1, 0], [{ label: "item", features: [1, 0] }]), [{ label: "item", score: 1 }]);
 await assert.rejects(
   lab.trainTinyCnn([{ label: "test", pixels: new Uint8Array(32 * 32 * 3) }], { epochs: 1 }),
   new RegExp("optional @tensorflow/tfjs peer dependency"),

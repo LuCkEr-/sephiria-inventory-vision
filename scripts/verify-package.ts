@@ -12,7 +12,7 @@ const packageJson = JSON.parse(await readFile(join(root, "package.json"), "utf8"
 };
 
 assert.equal(packageJson.sideEffects, false, "package must remain tree-shaking safe");
-assert.deepEqual(Object.keys(packageJson.exports).sort(), [".", "./lab"]);
+assert.deepEqual(Object.keys(packageJson.exports).sort(), [".", "./browser", "./lab"]);
 for (const [name, entry] of Object.entries(packageJson.exports)) {
   await readFile(resolve(root, entry.types));
   await readFile(resolve(root, entry.import));
@@ -25,6 +25,10 @@ const production = (await import(pathToFileURL(join(root, "dist", "index.js")).h
   unknown
 >;
 const lab = (await import(pathToFileURL(join(root, "dist", "lab.js")).href)) as Record<
+  string,
+  unknown
+>;
+const browser = (await import(pathToFileURL(join(root, "dist", "browser.js")).href)) as Record<
   string,
   unknown
 >;
@@ -41,6 +45,11 @@ for (const name of ["CLASSICAL_METHODS", "trainSiameseEmbedding", "trainTinyCnn"
   assert.equal(production[name], undefined, `Experimental export leaked into root: ${name}`);
   assert.notEqual(lab[name], undefined, `Missing lab export ${name}`);
 }
+for (const name of ["extractVisionFeatures", "rankVisionFeatures"]) {
+  assert.equal(typeof browser[name], "function", `Missing browser export ${name}`);
+}
+const browserEntry = await readFile(join(root, "dist", "browser.js"), "utf8");
+assert.doesNotMatch(browserEntry, /node:|sharp|tensorflow|detector|opencv/);
 
 const rootEntry = await readFile(join(root, "dist", "index.js"), "utf8");
 assert.doesNotMatch(rootEntry, /tensorflow|neural-methods|method-lab/);

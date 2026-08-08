@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0
+
+- Published the library as the scoped GitHub Package `@lucker-/sephiria-inventory-vision`.
+- Added a browser-safe descriptor and ranking entry point at `@lucker-/sephiria-inventory-vision/browser` for worker-based integrations.
+
 ## 0.8.0 — leakage-free rejection and source-order robustness
 
 - Added one shared class-aware acceptance policy for runtime, evaluation, and benchmarks, including minimum-margin protection for single-source item classes.

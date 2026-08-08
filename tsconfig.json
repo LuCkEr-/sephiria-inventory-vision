@@ -5,7 +5,8 @@
     "moduleResolution": "NodeNext",
     "baseUrl": ".",
     "paths": {
-      "sephiria-inventory-vision": ["./src/index.ts"]
+      "@lucker-/sephiria-inventory-vision": ["./src/index.ts"],
+      "@lucker-/sephiria-inventory-vision/browser": ["./src/browser.ts"]
     },
     "lib": ["ES2022", "DOM"],
     "strict": true,

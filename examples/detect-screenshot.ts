@@ -1,6 +1,6 @@
 import { resolve } from "node:path";
 
-import { createInventoryVisionDetector } from "sephiria-inventory-vision";
+import { createInventoryVisionDetector } from "@lucker-/sephiria-inventory-vision";
 
 const screenshot = process.argv[2];
 if (!screenshot) {
